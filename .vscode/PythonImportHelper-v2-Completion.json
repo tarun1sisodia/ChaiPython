@@ -7,5 +7,23 @@
         "description": "sys",
         "detail": "sys",
         "documentation": {}
+    },
+    {
+        "label": "sugar_amount",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_1",
+        "description": "02_datatypes.chapter_1",
+        "peekOfCode": "sugar_amount = 2\nprint(f\"Intial sugar amount: {sugar_amount} teaspoons\")\nsugar_amount =12\nprint(f\"Updated new Var: {sugar_amount}\")\nprint(f\"ID: 2{sugar_amount}\")\nprint(f\"ID: 12{sugar_amount}\")\nspace_mix = set()\nprint(f\"Initial Spice Mix id:{id(space_mix)}\")\nspace_mix.add(\"H2\")\nspace_mix.add(\"o2\")",
+        "detail": "02_datatypes.chapter_1",
+        "documentation": {}
+    },
+    {
+        "label": "space_mix",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_1",
+        "description": "02_datatypes.chapter_1",
+        "peekOfCode": "space_mix = set()\nprint(f\"Initial Spice Mix id:{id(space_mix)}\")\nspace_mix.add(\"H2\")\nspace_mix.add(\"o2\")\nprint(f\"After Space mix id  :{id(space_mix)}\")\nspace_mix.add(\"Oxygen\")\nprint(f\"Content of Space {space_mix}\")",
+        "detail": "02_datatypes.chapter_1",
+        "documentation": {}
     }
 ]
