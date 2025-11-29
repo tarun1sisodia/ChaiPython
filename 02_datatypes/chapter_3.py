@@ -15,3 +15,11 @@ servings = 4
 milk_per_serving = milk_litres/servings
 
 print(f"Milk per serving is :{milk_per_serving}")
+
+total_tea_bags = 7 
+pots = 4
+bags_per_pot = total_tea_bags+pots
+print(f"Bags per Pot: {bags_per_pot}")
+
+total_tea_leaves = 1_000_000_000
+print(f"Total Tea Leaves : {total_tea_leaves}")

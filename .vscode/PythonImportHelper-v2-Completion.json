@@ -9,6 +9,22 @@
         "documentation": {}
     },
     {
+        "label": "Fraction",
+        "importPath": "fractions",
+        "description": "fractions",
+        "isExtraImport": true,
+        "detail": "fractions",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
         "label": "sugar_amount",
         "kind": 5,
         "importPath": "02_datatypes.chapter_1",
@@ -40,7 +56,7 @@
         "kind": 5,
         "importPath": "02_datatypes.chapter_3",
         "description": "02_datatypes.chapter_3",
-        "peekOfCode": "ginger_grams = 5\ntotal_grams = black_tea_grams+ginger_grams\nprint(f\"Total Gram of base tea is :{total_grams}\")\nremain_gram = black_tea_grams-ginger_grams\nprint(f\"Remaining Grams: {remain_gram}\") \nmilk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "peekOfCode": "ginger_grams = 5\ntotal_grams = black_tea_grams+ginger_grams\nprint(f\"Total Gram of base tea is :{total_grams}\")\nremain_gram = black_tea_grams-ginger_grams\nprint(f\"Remaining Grams: {remain_gram}\") \nmilk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")\ntotal_tea_bags = 7 ",
         "detail": "02_datatypes.chapter_3",
         "documentation": {}
     },
@@ -49,7 +65,7 @@
         "kind": 5,
         "importPath": "02_datatypes.chapter_3",
         "description": "02_datatypes.chapter_3",
-        "peekOfCode": "total_grams = black_tea_grams+ginger_grams\nprint(f\"Total Gram of base tea is :{total_grams}\")\nremain_gram = black_tea_grams-ginger_grams\nprint(f\"Remaining Grams: {remain_gram}\") \nmilk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "peekOfCode": "total_grams = black_tea_grams+ginger_grams\nprint(f\"Total Gram of base tea is :{total_grams}\")\nremain_gram = black_tea_grams-ginger_grams\nprint(f\"Remaining Grams: {remain_gram}\") \nmilk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")\ntotal_tea_bags = 7 \npots = 4",
         "detail": "02_datatypes.chapter_3",
         "documentation": {}
     },
@@ -58,7 +74,7 @@
         "kind": 5,
         "importPath": "02_datatypes.chapter_3",
         "description": "02_datatypes.chapter_3",
-        "peekOfCode": "remain_gram = black_tea_grams-ginger_grams\nprint(f\"Remaining Grams: {remain_gram}\") \nmilk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "peekOfCode": "remain_gram = black_tea_grams-ginger_grams\nprint(f\"Remaining Grams: {remain_gram}\") \nmilk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")\ntotal_tea_bags = 7 \npots = 4\nbags_per_pot = total_tea_bags+pots\nprint(f\"Bags per Pot: {bags_per_pot}\")",
         "detail": "02_datatypes.chapter_3",
         "documentation": {}
     },
@@ -67,7 +83,7 @@
         "kind": 5,
         "importPath": "02_datatypes.chapter_3",
         "description": "02_datatypes.chapter_3",
-        "peekOfCode": "milk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "peekOfCode": "milk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")\ntotal_tea_bags = 7 \npots = 4\nbags_per_pot = total_tea_bags+pots\nprint(f\"Bags per Pot: {bags_per_pot}\")\ntotal_tea_leaves = 1_000_000_000\nprint(f\"Total Tea Leaves : {total_tea_leaves}\")",
         "detail": "02_datatypes.chapter_3",
         "documentation": {}
     },
@@ -76,7 +92,7 @@
         "kind": 5,
         "importPath": "02_datatypes.chapter_3",
         "description": "02_datatypes.chapter_3",
-        "peekOfCode": "servings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "peekOfCode": "servings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")\ntotal_tea_bags = 7 \npots = 4\nbags_per_pot = total_tea_bags+pots\nprint(f\"Bags per Pot: {bags_per_pot}\")\ntotal_tea_leaves = 1_000_000_000\nprint(f\"Total Tea Leaves : {total_tea_leaves}\")",
         "detail": "02_datatypes.chapter_3",
         "documentation": {}
     },
@@ -85,8 +101,80 @@
         "kind": 5,
         "importPath": "02_datatypes.chapter_3",
         "description": "02_datatypes.chapter_3",
-        "peekOfCode": "milk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "peekOfCode": "milk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")\ntotal_tea_bags = 7 \npots = 4\nbags_per_pot = total_tea_bags+pots\nprint(f\"Bags per Pot: {bags_per_pot}\")\ntotal_tea_leaves = 1_000_000_000\nprint(f\"Total Tea Leaves : {total_tea_leaves}\")",
         "detail": "02_datatypes.chapter_3",
+        "documentation": {}
+    },
+    {
+        "label": "total_tea_bags",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_3",
+        "description": "02_datatypes.chapter_3",
+        "peekOfCode": "total_tea_bags = 7 \npots = 4\nbags_per_pot = total_tea_bags+pots\nprint(f\"Bags per Pot: {bags_per_pot}\")\ntotal_tea_leaves = 1_000_000_000\nprint(f\"Total Tea Leaves : {total_tea_leaves}\")",
+        "detail": "02_datatypes.chapter_3",
+        "documentation": {}
+    },
+    {
+        "label": "pots",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_3",
+        "description": "02_datatypes.chapter_3",
+        "peekOfCode": "pots = 4\nbags_per_pot = total_tea_bags+pots\nprint(f\"Bags per Pot: {bags_per_pot}\")\ntotal_tea_leaves = 1_000_000_000\nprint(f\"Total Tea Leaves : {total_tea_leaves}\")",
+        "detail": "02_datatypes.chapter_3",
+        "documentation": {}
+    },
+    {
+        "label": "bags_per_pot",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_3",
+        "description": "02_datatypes.chapter_3",
+        "peekOfCode": "bags_per_pot = total_tea_bags+pots\nprint(f\"Bags per Pot: {bags_per_pot}\")\ntotal_tea_leaves = 1_000_000_000\nprint(f\"Total Tea Leaves : {total_tea_leaves}\")",
+        "detail": "02_datatypes.chapter_3",
+        "documentation": {}
+    },
+    {
+        "label": "total_tea_leaves",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_3",
+        "description": "02_datatypes.chapter_3",
+        "peekOfCode": "total_tea_leaves = 1_000_000_000\nprint(f\"Total Tea Leaves : {total_tea_leaves}\")",
+        "detail": "02_datatypes.chapter_3",
+        "documentation": {}
+    },
+    {
+        "label": "isBoiling",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_4",
+        "description": "02_datatypes.chapter_4",
+        "peekOfCode": "isBoiling = True\ncount  = 4\nprint(f\"Total : {isBoiling +count}\")\n# whatIF = 0 \nwhatIF = 1 \nprint(f\"What iF : {bool(whatIF)}\")",
+        "detail": "02_datatypes.chapter_4",
+        "documentation": {}
+    },
+    {
+        "label": "whatIF",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_4",
+        "description": "02_datatypes.chapter_4",
+        "peekOfCode": "whatIF = 1 \nprint(f\"What iF : {bool(whatIF)}\")",
+        "detail": "02_datatypes.chapter_4",
+        "documentation": {}
+    },
+    {
+        "label": "ideal_temp",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_5",
+        "description": "02_datatypes.chapter_5",
+        "peekOfCode": "ideal_temp = 95.5\nexcat_temp = 95.49\nprint(f\"Ideal Temp: {ideal_temp}\")\nprint(f\"Current Temp :{excat_temp}\")\nprint(f\"Difference Temp :{ideal_temp -excat_temp}\")\nprint(sys.float_info)",
+        "detail": "02_datatypes.chapter_5",
+        "documentation": {}
+    },
+    {
+        "label": "excat_temp",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_5",
+        "description": "02_datatypes.chapter_5",
+        "peekOfCode": "excat_temp = 95.49\nprint(f\"Ideal Temp: {ideal_temp}\")\nprint(f\"Current Temp :{excat_temp}\")\nprint(f\"Difference Temp :{ideal_temp -excat_temp}\")\nprint(sys.float_info)",
+        "detail": "02_datatypes.chapter_5",
         "documentation": {}
     }
 ]
