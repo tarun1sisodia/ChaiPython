@@ -13,17 +13,80 @@
         "kind": 5,
         "importPath": "02_datatypes.chapter_1",
         "description": "02_datatypes.chapter_1",
-        "peekOfCode": "sugar_amount = 2\nprint(f\"Intial sugar amount: {sugar_amount} teaspoons\")\nsugar_amount =12\nprint(f\"Updated new Var: {sugar_amount}\")\nprint(f\"ID: 2{sugar_amount}\")\nprint(f\"ID: 12{sugar_amount}\")\nspace_mix = set()\nprint(f\"Initial Spice Mix id:{id(space_mix)}\")\nspace_mix.add(\"H2\")\nspace_mix.add(\"o2\")",
+        "peekOfCode": "sugar_amount = 2\nprint(f\"Intial sugar amount: {sugar_amount} teaspoons\")\nsugar_amount =12\nprint(f\"Updated new Var: {sugar_amount}\")\nprint(f\"ID: 2{sugar_amount}\")\nprint(f\"ID: 12{sugar_amount}\")",
         "detail": "02_datatypes.chapter_1",
         "documentation": {}
     },
     {
         "label": "space_mix",
         "kind": 5,
-        "importPath": "02_datatypes.chapter_1",
-        "description": "02_datatypes.chapter_1",
+        "importPath": "02_datatypes.chapter_2",
+        "description": "02_datatypes.chapter_2",
         "peekOfCode": "space_mix = set()\nprint(f\"Initial Spice Mix id:{id(space_mix)}\")\nspace_mix.add(\"H2\")\nspace_mix.add(\"o2\")\nprint(f\"After Space mix id  :{id(space_mix)}\")\nspace_mix.add(\"Oxygen\")\nprint(f\"Content of Space {space_mix}\")",
-        "detail": "02_datatypes.chapter_1",
+        "detail": "02_datatypes.chapter_2",
+        "documentation": {}
+    },
+    {
+        "label": "black_tea_grams",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_3",
+        "description": "02_datatypes.chapter_3",
+        "peekOfCode": "black_tea_grams = 14\nginger_grams = 5\ntotal_grams = black_tea_grams+ginger_grams\nprint(f\"Total Gram of base tea is :{total_grams}\")\nremain_gram = black_tea_grams-ginger_grams\nprint(f\"Remaining Grams: {remain_gram}\") \nmilk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "detail": "02_datatypes.chapter_3",
+        "documentation": {}
+    },
+    {
+        "label": "ginger_grams",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_3",
+        "description": "02_datatypes.chapter_3",
+        "peekOfCode": "ginger_grams = 5\ntotal_grams = black_tea_grams+ginger_grams\nprint(f\"Total Gram of base tea is :{total_grams}\")\nremain_gram = black_tea_grams-ginger_grams\nprint(f\"Remaining Grams: {remain_gram}\") \nmilk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "detail": "02_datatypes.chapter_3",
+        "documentation": {}
+    },
+    {
+        "label": "total_grams",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_3",
+        "description": "02_datatypes.chapter_3",
+        "peekOfCode": "total_grams = black_tea_grams+ginger_grams\nprint(f\"Total Gram of base tea is :{total_grams}\")\nremain_gram = black_tea_grams-ginger_grams\nprint(f\"Remaining Grams: {remain_gram}\") \nmilk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "detail": "02_datatypes.chapter_3",
+        "documentation": {}
+    },
+    {
+        "label": "remain_gram",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_3",
+        "description": "02_datatypes.chapter_3",
+        "peekOfCode": "remain_gram = black_tea_grams-ginger_grams\nprint(f\"Remaining Grams: {remain_gram}\") \nmilk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "detail": "02_datatypes.chapter_3",
+        "documentation": {}
+    },
+    {
+        "label": "milk_litres",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_3",
+        "description": "02_datatypes.chapter_3",
+        "peekOfCode": "milk_litres = 7\nservings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "detail": "02_datatypes.chapter_3",
+        "documentation": {}
+    },
+    {
+        "label": "servings",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_3",
+        "description": "02_datatypes.chapter_3",
+        "peekOfCode": "servings = 4\nmilk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "detail": "02_datatypes.chapter_3",
+        "documentation": {}
+    },
+    {
+        "label": "milk_per_serving",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_3",
+        "description": "02_datatypes.chapter_3",
+        "peekOfCode": "milk_per_serving = milk_litres/servings\nprint(f\"Milk per serving is :{milk_per_serving}\")",
+        "detail": "02_datatypes.chapter_3",
         "documentation": {}
     }
 ]
