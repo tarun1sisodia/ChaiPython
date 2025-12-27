@@ -176,5 +176,32 @@
         "peekOfCode": "excat_temp = 95.49\nprint(f\"Ideal Temp: {ideal_temp}\")\nprint(f\"Current Temp :{excat_temp}\")\nprint(f\"Difference Temp :{ideal_temp -excat_temp}\")\nprint(sys.float_info)",
         "detail": "02_datatypes.chapter_5",
         "documentation": {}
+    },
+    {
+        "label": "chai_type",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_6",
+        "description": "02_datatypes.chapter_6",
+        "peekOfCode": "chai_type = \"Ginger Chai\"\ncustomer_care = \"Priya\"\nprint(f\"Order For {customer_care} :{chai_type} please !\")\ndemo = \"Aromatic and Bold\"\nprint()",
+        "detail": "02_datatypes.chapter_6",
+        "documentation": {}
+    },
+    {
+        "label": "customer_care",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_6",
+        "description": "02_datatypes.chapter_6",
+        "peekOfCode": "customer_care = \"Priya\"\nprint(f\"Order For {customer_care} :{chai_type} please !\")\ndemo = \"Aromatic and Bold\"\nprint()",
+        "detail": "02_datatypes.chapter_6",
+        "documentation": {}
+    },
+    {
+        "label": "demo",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_6",
+        "description": "02_datatypes.chapter_6",
+        "peekOfCode": "demo = \"Aromatic and Bold\"\nprint()",
+        "detail": "02_datatypes.chapter_6",
+        "documentation": {}
     }
 ]
