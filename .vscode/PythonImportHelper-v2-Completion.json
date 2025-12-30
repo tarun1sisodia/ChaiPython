@@ -239,5 +239,50 @@
         "peekOfCode": "(spice1,spice2,spice3) = masala_spices\nprint(f\"Main Masala Spices: {spice1}, {spice2}, {spice3}\")\nginger_ratio , cardmom_ratio = 2,1\nprint(f\"Ratio is G: {ginger_ratio} and Ratio is C: {cardmom_ratio}\")\nginger_ratio ,cardmom_ratio = cardmom_ratio, ginger_ratio\nprint(f\"Ratio is G: {ginger_ratio} and Ratio is C: {cardmom_ratio}\")\n#Membership testing\nprint(f\"is Ginger in Masala Spice ?  {'ginger' in masala_spices}\")\nprint(f\"is Cinnamom in Masala Spice ?  {'cinnamom' in masala_spices}\")",
         "detail": "02_datatypes.chapter_7",
         "documentation": {}
+    },
+    {
+        "label": "ingredients",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_8",
+        "description": "02_datatypes.chapter_8",
+        "peekOfCode": "ingredients = [ \"water\", \"milk\", \"black_tea\"]\ningredients.append(\"sugar\") #adds in last of array.\nprint(f\"Total Ingredients: {ingredients}\")\ningredients.pop()\nprint(f\"After Poping the last element/ Data : {ingredients}\")\ningredients.remove('water')\nprint(f\"After Water: {ingredients}\")\n# print(f\"Ingredients: {ingredients.reverse()}\")\nspice_options = [\"ginger\", \"Cardmom\"]\nchai_ingredients = [\"water\",\"milk\"]",
+        "detail": "02_datatypes.chapter_8",
+        "documentation": {}
+    },
+    {
+        "label": "spice_options",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_8",
+        "description": "02_datatypes.chapter_8",
+        "peekOfCode": "spice_options = [\"ginger\", \"Cardmom\"]\nchai_ingredients = [\"water\",\"milk\"]\nchai_ingredients.extend(spice_options)\nprint(f\"Chai and Chai Ingredients : {chai_ingredients}\")\nchai_ingredients.insert(2,\"black_tea\")\nprint(f\"chai:{chai_ingredients}\")\nlast_option = chai_ingredients.pop()\nprint(last_option)\nchai_ingredients.reverse()\nprint(chai_ingredients)",
+        "detail": "02_datatypes.chapter_8",
+        "documentation": {}
+    },
+    {
+        "label": "chai_ingredients",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_8",
+        "description": "02_datatypes.chapter_8",
+        "peekOfCode": "chai_ingredients = [\"water\",\"milk\"]\nchai_ingredients.extend(spice_options)\nprint(f\"Chai and Chai Ingredients : {chai_ingredients}\")\nchai_ingredients.insert(2,\"black_tea\")\nprint(f\"chai:{chai_ingredients}\")\nlast_option = chai_ingredients.pop()\nprint(last_option)\nchai_ingredients.reverse()\nprint(chai_ingredients)\nchai_ingredients.sort()",
+        "detail": "02_datatypes.chapter_8",
+        "documentation": {}
+    },
+    {
+        "label": "last_option",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_8",
+        "description": "02_datatypes.chapter_8",
+        "peekOfCode": "last_option = chai_ingredients.pop()\nprint(last_option)\nchai_ingredients.reverse()\nprint(chai_ingredients)\nchai_ingredients.sort()\nprint(chai_ingredients)\nsugar_levels = [1,2,3,4,5]\nprint(f\"Max of Sugar Level: {max(sugar_levels)}\")\nprint(f\"Min of Sugar Level: {min(sugar_levels)}\")",
+        "detail": "02_datatypes.chapter_8",
+        "documentation": {}
+    },
+    {
+        "label": "sugar_levels",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_8",
+        "description": "02_datatypes.chapter_8",
+        "peekOfCode": "sugar_levels = [1,2,3,4,5]\nprint(f\"Max of Sugar Level: {max(sugar_levels)}\")\nprint(f\"Min of Sugar Level: {min(sugar_levels)}\")",
+        "detail": "02_datatypes.chapter_8",
+        "documentation": {}
     }
 ]
