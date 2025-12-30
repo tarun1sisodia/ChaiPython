@@ -182,7 +182,7 @@
         "kind": 5,
         "importPath": "02_datatypes.chapter_6",
         "description": "02_datatypes.chapter_6",
-        "peekOfCode": "chai_type = \"Ginger Chai\"\ncustomer_care = \"Priya\"\nprint(f\"Order For {customer_care} :{chai_type} please !\")\ndemo = \"Aromatic and Bold\"\nprint()",
+        "peekOfCode": "chai_type = \"Ginger Chai\"\ncustomer_care = \"Tarun\"\nprint(f\"Order For {customer_care} :{chai_type} Please!\")\ndemo = \"Aromatic and Bold\"\nprint(demo[3])   # Output: m , because we are directly indexing the string.\nprint(demo[0:12:2])  # skipping the 2 values everytime\nprint(demo[3:-2])\nprint(f\"To reverse a string directly use:: {demo[::-1]}\")\nlabel_text  =  \"Tarun Siso@`ia\"\nencoded_label = label_text.encode(\"utf-8\")",
         "detail": "02_datatypes.chapter_6",
         "documentation": {}
     },
@@ -191,7 +191,7 @@
         "kind": 5,
         "importPath": "02_datatypes.chapter_6",
         "description": "02_datatypes.chapter_6",
-        "peekOfCode": "customer_care = \"Priya\"\nprint(f\"Order For {customer_care} :{chai_type} please !\")\ndemo = \"Aromatic and Bold\"\nprint()",
+        "peekOfCode": "customer_care = \"Tarun\"\nprint(f\"Order For {customer_care} :{chai_type} Please!\")\ndemo = \"Aromatic and Bold\"\nprint(demo[3])   # Output: m , because we are directly indexing the string.\nprint(demo[0:12:2])  # skipping the 2 values everytime\nprint(demo[3:-2])\nprint(f\"To reverse a string directly use:: {demo[::-1]}\")\nlabel_text  =  \"Tarun Siso@`ia\"\nencoded_label = label_text.encode(\"utf-8\")\nprint(encoded_label)",
         "detail": "02_datatypes.chapter_6",
         "documentation": {}
     },
@@ -200,8 +200,44 @@
         "kind": 5,
         "importPath": "02_datatypes.chapter_6",
         "description": "02_datatypes.chapter_6",
-        "peekOfCode": "demo = \"Aromatic and Bold\"\nprint()",
+        "peekOfCode": "demo = \"Aromatic and Bold\"\nprint(demo[3])   # Output: m , because we are directly indexing the string.\nprint(demo[0:12:2])  # skipping the 2 values everytime\nprint(demo[3:-2])\nprint(f\"To reverse a string directly use:: {demo[::-1]}\")\nlabel_text  =  \"Tarun Siso@`ia\"\nencoded_label = label_text.encode(\"utf-8\")\nprint(encoded_label)\nprint(label_text)\ndecoded = encoded_label.decode(\"utf-8\")",
         "detail": "02_datatypes.chapter_6",
+        "documentation": {}
+    },
+    {
+        "label": "encoded_label",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_6",
+        "description": "02_datatypes.chapter_6",
+        "peekOfCode": "encoded_label = label_text.encode(\"utf-8\")\nprint(encoded_label)\nprint(label_text)\ndecoded = encoded_label.decode(\"utf-8\")\nprint(decoded)",
+        "detail": "02_datatypes.chapter_6",
+        "documentation": {}
+    },
+    {
+        "label": "decoded",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_6",
+        "description": "02_datatypes.chapter_6",
+        "peekOfCode": "decoded = encoded_label.decode(\"utf-8\")\nprint(decoded)",
+        "detail": "02_datatypes.chapter_6",
+        "documentation": {}
+    },
+    {
+        "label": "masala_spices",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_7",
+        "description": "02_datatypes.chapter_7",
+        "peekOfCode": "masala_spices = (\"cardamom\",\"cloves\",\"cinnamom\")\n(spice1,spice2,spice3) = masala_spices\nprint(f\"Main Masala Spices: {spice1}, {spice2}, {spice3}\")\nginger_ratio , cardmom_ratio = 2,1\nprint(f\"Ratio is G: {ginger_ratio} and Ratio is C: {cardmom_ratio}\")\nginger_ratio ,cardmom_ratio = cardmom_ratio, ginger_ratio\nprint(f\"Ratio is G: {ginger_ratio} and Ratio is C: {cardmom_ratio}\")\n#Membership testing\nprint(f\"is Ginger in Masala Spice ?  {'ginger' in masala_spices}\")\nprint(f\"is Cinnamom in Masala Spice ?  {'cinnamom' in masala_spices}\")",
+        "detail": "02_datatypes.chapter_7",
+        "documentation": {}
+    },
+    {
+        "label": "(spice1,spice2,spice3)",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_7",
+        "description": "02_datatypes.chapter_7",
+        "peekOfCode": "(spice1,spice2,spice3) = masala_spices\nprint(f\"Main Masala Spices: {spice1}, {spice2}, {spice3}\")\nginger_ratio , cardmom_ratio = 2,1\nprint(f\"Ratio is G: {ginger_ratio} and Ratio is C: {cardmom_ratio}\")\nginger_ratio ,cardmom_ratio = cardmom_ratio, ginger_ratio\nprint(f\"Ratio is G: {ginger_ratio} and Ratio is C: {cardmom_ratio}\")\n#Membership testing\nprint(f\"is Ginger in Masala Spice ?  {'ginger' in masala_spices}\")\nprint(f\"is Cinnamom in Masala Spice ?  {'cinnamom' in masala_spices}\")",
+        "detail": "02_datatypes.chapter_7",
         "documentation": {}
     }
 ]

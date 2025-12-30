@@ -9,7 +9,10 @@ print(demo[0:12:2])  # skipping the 2 values everytime
 print(demo[3:-2])
 
 print(f"To reverse a string directly use:: {demo[::-1]}")
-label_text  =  "Tarun Siso@ia"
+label_text  =  "Tarun Siso@`ia"
 encoded_label = label_text.encode("utf-8")
 print(encoded_label)
 print(label_text)
+
+decoded = encoded_label.decode("utf-8")
+print(decoded)
