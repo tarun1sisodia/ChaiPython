@@ -33,3 +33,12 @@ print(chai_ingredients)
 sugar_levels = [1,2,3,4,5]
 print(f"Max of Sugar Level: {max(sugar_levels)}")
 print(f"Min of Sugar Level: {min(sugar_levels)}")
+
+base_liquid  = ["water","milk"]
+extra_flavour = ["ginger"]
+
+print(f"Liquid Mixture: {base_liquid+extra_flavour}")
+
+strong_brew = ["black tea"] * 3
+
+print(f"Brew: {strong_brew}")
