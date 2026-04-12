@@ -42,3 +42,13 @@ print(f"Liquid Mixture: {base_liquid+extra_flavour}")
 strong_brew = ["black tea"] * 3
 
 print(f"Brew: {strong_brew}")
+
+# from operator import itemgetter
+
+raw_spice_data = bytearray(b"CINNAMOM")
+
+# print(f"Bytes: {raw_spice_data}")
+
+raw_spice_data = raw_spice_data.replace(b"CINNA","CARD")
+# raw_spice_data = raw_spice_data.replace(b"MOM",b"Ceena")
+print(raw_spice_data)

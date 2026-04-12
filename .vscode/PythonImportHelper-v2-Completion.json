@@ -272,7 +272,7 @@
         "kind": 5,
         "importPath": "02_datatypes.chapter_8",
         "description": "02_datatypes.chapter_8",
-        "peekOfCode": "last_option = chai_ingredients.pop()\nprint(last_option)\nchai_ingredients.reverse()\nprint(chai_ingredients)\nchai_ingredients.sort()\nprint(chai_ingredients)\nsugar_levels = [1,2,3,4,5]\nprint(f\"Max of Sugar Level: {max(sugar_levels)}\")\nprint(f\"Min of Sugar Level: {min(sugar_levels)}\")",
+        "peekOfCode": "last_option = chai_ingredients.pop()\nprint(last_option)\nchai_ingredients.reverse()\nprint(chai_ingredients)\nchai_ingredients.sort()\nprint(chai_ingredients)\nsugar_levels = [1,2,3,4,5]\nprint(f\"Max of Sugar Level: {max(sugar_levels)}\")\nprint(f\"Min of Sugar Level: {min(sugar_levels)}\")\nbase_liquid  = [\"water\",\"milk\"]",
         "detail": "02_datatypes.chapter_8",
         "documentation": {}
     },
@@ -281,8 +281,89 @@
         "kind": 5,
         "importPath": "02_datatypes.chapter_8",
         "description": "02_datatypes.chapter_8",
-        "peekOfCode": "sugar_levels = [1,2,3,4,5]\nprint(f\"Max of Sugar Level: {max(sugar_levels)}\")\nprint(f\"Min of Sugar Level: {min(sugar_levels)}\")",
+        "peekOfCode": "sugar_levels = [1,2,3,4,5]\nprint(f\"Max of Sugar Level: {max(sugar_levels)}\")\nprint(f\"Min of Sugar Level: {min(sugar_levels)}\")\nbase_liquid  = [\"water\",\"milk\"]\nextra_flavour = [\"ginger\"]\nprint(f\"Liquid Mixture: {base_liquid+extra_flavour}\")\nstrong_brew = [\"black tea\"] * 3\nprint(f\"Brew: {strong_brew}\")\n# from operator import itemgetter\nraw_spice_data = bytearray(b\"CINNAMOM\")",
         "detail": "02_datatypes.chapter_8",
+        "documentation": {}
+    },
+    {
+        "label": "extra_flavour",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_8",
+        "description": "02_datatypes.chapter_8",
+        "peekOfCode": "extra_flavour = [\"ginger\"]\nprint(f\"Liquid Mixture: {base_liquid+extra_flavour}\")\nstrong_brew = [\"black tea\"] * 3\nprint(f\"Brew: {strong_brew}\")\n# from operator import itemgetter\nraw_spice_data = bytearray(b\"CINNAMOM\")\n# print(f\"Bytes: {raw_spice_data}\")\nraw_spice_data = raw_spice_data.replace(b\"CINNA\",\"CARD\")\n# raw_spice_data = raw_spice_data.replace(b\"MOM\",b\"Ceena\")\nprint(raw_spice_data)",
+        "detail": "02_datatypes.chapter_8",
+        "documentation": {}
+    },
+    {
+        "label": "strong_brew",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_8",
+        "description": "02_datatypes.chapter_8",
+        "peekOfCode": "strong_brew = [\"black tea\"] * 3\nprint(f\"Brew: {strong_brew}\")\n# from operator import itemgetter\nraw_spice_data = bytearray(b\"CINNAMOM\")\n# print(f\"Bytes: {raw_spice_data}\")\nraw_spice_data = raw_spice_data.replace(b\"CINNA\",\"CARD\")\n# raw_spice_data = raw_spice_data.replace(b\"MOM\",b\"Ceena\")\nprint(raw_spice_data)",
+        "detail": "02_datatypes.chapter_8",
+        "documentation": {}
+    },
+    {
+        "label": "raw_spice_data",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_8",
+        "description": "02_datatypes.chapter_8",
+        "peekOfCode": "raw_spice_data = bytearray(b\"CINNAMOM\")\n# print(f\"Bytes: {raw_spice_data}\")\nraw_spice_data = raw_spice_data.replace(b\"CINNA\",\"CARD\")\n# raw_spice_data = raw_spice_data.replace(b\"MOM\",b\"Ceena\")\nprint(raw_spice_data)",
+        "detail": "02_datatypes.chapter_8",
+        "documentation": {}
+    },
+    {
+        "label": "raw_spice_data",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_8",
+        "description": "02_datatypes.chapter_8",
+        "peekOfCode": "raw_spice_data = raw_spice_data.replace(b\"CINNA\",\"CARD\")\n# raw_spice_data = raw_spice_data.replace(b\"MOM\",b\"Ceena\")\nprint(raw_spice_data)",
+        "detail": "02_datatypes.chapter_8",
+        "documentation": {}
+    },
+    {
+        "label": "essentials_spice",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_9",
+        "description": "02_datatypes.chapter_9",
+        "peekOfCode": "essentials_spice = {\"cardmom\",\"ginger\",\"cinnamom\"}\noptional_spices = {\"cloves\",\"ginger\",\"black_paper\"}\nall_spices = essentials_spice | optional_spices\nprint(all_spices)\ncommon_spices = essentials_spice & optional_spices\nprint(f\"Common Spices : {common_spices}\")\nonly_in_essential = essentials_spice - optional_spices\nprint(f\" Essentails:  {only_in_essential}\")\n#membership test\nprint(f\"Check CLoves Exists or not: {'cloves' in essentials_spice}\")",
+        "detail": "02_datatypes.chapter_9",
+        "documentation": {}
+    },
+    {
+        "label": "optional_spices",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_9",
+        "description": "02_datatypes.chapter_9",
+        "peekOfCode": "optional_spices = {\"cloves\",\"ginger\",\"black_paper\"}\nall_spices = essentials_spice | optional_spices\nprint(all_spices)\ncommon_spices = essentials_spice & optional_spices\nprint(f\"Common Spices : {common_spices}\")\nonly_in_essential = essentials_spice - optional_spices\nprint(f\" Essentails:  {only_in_essential}\")\n#membership test\nprint(f\"Check CLoves Exists or not: {'cloves' in essentials_spice}\")\nprint(f\"Check Ginger Exists or not: {'ginger' in essentials_spice}\")",
+        "detail": "02_datatypes.chapter_9",
+        "documentation": {}
+    },
+    {
+        "label": "all_spices",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_9",
+        "description": "02_datatypes.chapter_9",
+        "peekOfCode": "all_spices = essentials_spice | optional_spices\nprint(all_spices)\ncommon_spices = essentials_spice & optional_spices\nprint(f\"Common Spices : {common_spices}\")\nonly_in_essential = essentials_spice - optional_spices\nprint(f\" Essentails:  {only_in_essential}\")\n#membership test\nprint(f\"Check CLoves Exists or not: {'cloves' in essentials_spice}\")\nprint(f\"Check Ginger Exists or not: {'ginger' in essentials_spice}\")",
+        "detail": "02_datatypes.chapter_9",
+        "documentation": {}
+    },
+    {
+        "label": "common_spices",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_9",
+        "description": "02_datatypes.chapter_9",
+        "peekOfCode": "common_spices = essentials_spice & optional_spices\nprint(f\"Common Spices : {common_spices}\")\nonly_in_essential = essentials_spice - optional_spices\nprint(f\" Essentails:  {only_in_essential}\")\n#membership test\nprint(f\"Check CLoves Exists or not: {'cloves' in essentials_spice}\")\nprint(f\"Check Ginger Exists or not: {'ginger' in essentials_spice}\")",
+        "detail": "02_datatypes.chapter_9",
+        "documentation": {}
+    },
+    {
+        "label": "only_in_essential",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_9",
+        "description": "02_datatypes.chapter_9",
+        "peekOfCode": "only_in_essential = essentials_spice - optional_spices\nprint(f\" Essentails:  {only_in_essential}\")\n#membership test\nprint(f\"Check CLoves Exists or not: {'cloves' in essentials_spice}\")\nprint(f\"Check Ginger Exists or not: {'ginger' in essentials_spice}\")",
+        "detail": "02_datatypes.chapter_9",
         "documentation": {}
     }
 ]
