@@ -16,4 +16,6 @@ match seat:
          print("This doesn't include Seat and and no AC :\n")
    case "luxury":
          print("Welcome! Best AC and Seat Availability :\n")
+   case _:
+      print("Invalid seat type")
 
