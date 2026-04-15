@@ -1,5 +1,22 @@
 [
     {
+        "label": "arrow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "arrow",
+        "description": "arrow",
+        "detail": "arrow",
+        "documentation": {}
+    },
+    {
+        "label": "namedtuple",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -31,6 +48,78 @@
         "description": "02_datatypes.chapter_1",
         "peekOfCode": "sugar_amount = 2\nprint(f\"Intial sugar amount: {sugar_amount} teaspoons\")\nsugar_amount =12\nprint(f\"Updated new Var: {sugar_amount}\")\nprint(f\"ID: 2{sugar_amount}\")\nprint(f\"ID: 12{sugar_amount}\")",
         "detail": "02_datatypes.chapter_1",
+        "documentation": {}
+    },
+    {
+        "label": "chai_recipe",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_10",
+        "description": "02_datatypes.chapter_10",
+        "peekOfCode": "chai_recipe = {}\nchai_recipe[\"base\"] = \"Black Tea\"\nchai_recipe[\"liquid\"] = \"Milk\"\nprint(f\"Chai Recipe:{chai_recipe}\")\n#to delete from the Dictionary\ndel chai_recipe[\"liquid\"]\nprint(f\"Chai Recipe:{chai_recipe}\")\n#membership \nprint(f\"Is Base available: {\"base\" in chai_recipe}\")\nprint(f\"Chai Recipe Keys :{chai_recipe.keys()}\")",
+        "detail": "02_datatypes.chapter_10",
+        "documentation": {}
+    },
+    {
+        "label": "chai_recipe[\"base\"]",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_10",
+        "description": "02_datatypes.chapter_10",
+        "peekOfCode": "chai_recipe[\"base\"] = \"Black Tea\"\nchai_recipe[\"liquid\"] = \"Milk\"\nprint(f\"Chai Recipe:{chai_recipe}\")\n#to delete from the Dictionary\ndel chai_recipe[\"liquid\"]\nprint(f\"Chai Recipe:{chai_recipe}\")\n#membership \nprint(f\"Is Base available: {\"base\" in chai_recipe}\")\nprint(f\"Chai Recipe Keys :{chai_recipe.keys()}\")\nchai_order = {\"type\":\"Ginger\",\"size\":\"Medium\",\"sugar\":2}",
+        "detail": "02_datatypes.chapter_10",
+        "documentation": {}
+    },
+    {
+        "label": "chai_recipe[\"liquid\"]",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_10",
+        "description": "02_datatypes.chapter_10",
+        "peekOfCode": "chai_recipe[\"liquid\"] = \"Milk\"\nprint(f\"Chai Recipe:{chai_recipe}\")\n#to delete from the Dictionary\ndel chai_recipe[\"liquid\"]\nprint(f\"Chai Recipe:{chai_recipe}\")\n#membership \nprint(f\"Is Base available: {\"base\" in chai_recipe}\")\nprint(f\"Chai Recipe Keys :{chai_recipe.keys()}\")\nchai_order = {\"type\":\"Ginger\",\"size\":\"Medium\",\"sugar\":2}\nprint(f\"Chai Order after long time: {chai_order}\")",
+        "detail": "02_datatypes.chapter_10",
+        "documentation": {}
+    },
+    {
+        "label": "chai_order",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_10",
+        "description": "02_datatypes.chapter_10",
+        "peekOfCode": "chai_order = {\"type\":\"Ginger\",\"size\":\"Medium\",\"sugar\":2}\nprint(f\"Chai Order after long time: {chai_order}\")\nextra_spice = {\"cardmom\":\"crushed\",\"ginger\":\"sliced\"}\nprint(f\"Chai Keys: {chai_order.keys()}\")\nchai_recipe.update(extra_spice)\nprint(f\"Chai Recipe: {chai_recipe}\")\nchai_recipe.update(chai_order)\nprint(f\"Chai Recipe + Chai Order {chai_recipe}\")",
+        "detail": "02_datatypes.chapter_10",
+        "documentation": {}
+    },
+    {
+        "label": "extra_spice",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_10",
+        "description": "02_datatypes.chapter_10",
+        "peekOfCode": "extra_spice = {\"cardmom\":\"crushed\",\"ginger\":\"sliced\"}\nprint(f\"Chai Keys: {chai_order.keys()}\")\nchai_recipe.update(extra_spice)\nprint(f\"Chai Recipe: {chai_recipe}\")\nchai_recipe.update(chai_order)\nprint(f\"Chai Recipe + Chai Order {chai_recipe}\")",
+        "detail": "02_datatypes.chapter_10",
+        "documentation": {}
+    },
+    {
+        "label": "brewing_time",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_11",
+        "description": "02_datatypes.chapter_11",
+        "peekOfCode": "brewing_time = arrow.utcnow();\nbrewing_time = brewing_time.to(\"Europe/Rome\");\nprint(f\"Europe Rome time: {brewing_time}\")\nfrom collections import namedtuple\nchai_Profile = namedtuple(\"chai_Profile\",[\"flavour\",\"aroma\"])\nprint(f\"chai_profile: {chai_Profile}\")",
+        "detail": "02_datatypes.chapter_11",
+        "documentation": {}
+    },
+    {
+        "label": "brewing_time",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_11",
+        "description": "02_datatypes.chapter_11",
+        "peekOfCode": "brewing_time = brewing_time.to(\"Europe/Rome\");\nprint(f\"Europe Rome time: {brewing_time}\")\nfrom collections import namedtuple\nchai_Profile = namedtuple(\"chai_Profile\",[\"flavour\",\"aroma\"])\nprint(f\"chai_profile: {chai_Profile}\")",
+        "detail": "02_datatypes.chapter_11",
+        "documentation": {}
+    },
+    {
+        "label": "chai_Profile",
+        "kind": 5,
+        "importPath": "02_datatypes.chapter_11",
+        "description": "02_datatypes.chapter_11",
+        "peekOfCode": "chai_Profile = namedtuple(\"chai_Profile\",[\"flavour\",\"aroma\"])\nprint(f\"chai_profile: {chai_Profile}\")",
+        "detail": "02_datatypes.chapter_11",
         "documentation": {}
     },
     {
@@ -364,6 +453,96 @@
         "description": "02_datatypes.chapter_9",
         "peekOfCode": "only_in_essential = essentials_spice - optional_spices\nprint(f\" Essentails:  {only_in_essential}\")\n#membership test\nprint(f\"Check CLoves Exists or not: {'cloves' in essentials_spice}\")\nprint(f\"Check Ginger Exists or not: {'ginger' in essentials_spice}\")",
         "detail": "02_datatypes.chapter_9",
+        "documentation": {}
+    },
+    {
+        "label": "cup_size",
+        "kind": 5,
+        "importPath": "03_Conditionals.chai_price_calculator",
+        "description": "03_Conditionals.chai_price_calculator",
+        "peekOfCode": "cup_size = input(\"Enter your Cup Size: \").lower();\ncup_no = int(input(\"Enter How many cups you want:-> \"))\nif(cup_no < 0):\n    print(f\"Please Provide minimum 1 cup: {cup_no}\")\nelse :\n    if(\"small\" == cup_size):\n        print(f\"Making Small tea: & Total Price: {cup_no*10}\");\n    elif(\"medium\"== cup_size):\n        print(f\"Making Medium Tea:  & Total Price: {cup_no*15}\");\n    elif(\"large\" == cup_size) :",
+        "detail": "03_Conditionals.chai_price_calculator",
+        "documentation": {}
+    },
+    {
+        "label": "cup_no",
+        "kind": 5,
+        "importPath": "03_Conditionals.chai_price_calculator",
+        "description": "03_Conditionals.chai_price_calculator",
+        "peekOfCode": "cup_no = int(input(\"Enter How many cups you want:-> \"))\nif(cup_no < 0):\n    print(f\"Please Provide minimum 1 cup: {cup_no}\")\nelse :\n    if(\"small\" == cup_size):\n        print(f\"Making Small tea: & Total Price: {cup_no*10}\");\n    elif(\"medium\"== cup_size):\n        print(f\"Making Medium Tea:  & Total Price: {cup_no*15}\");\n    elif(\"large\" == cup_size) :\n        print(f\"Makin Large Tea:  & Total Price: {cup_no*20}\");",
+        "detail": "03_Conditionals.chai_price_calculator",
+        "documentation": {}
+    },
+    {
+        "label": "order_amount",
+        "kind": 5,
+        "importPath": "03_Conditionals.delivery_fee_waiver_system",
+        "description": "03_Conditionals.delivery_fee_waiver_system",
+        "peekOfCode": "order_amount = int(input(\"Enter your Orde price:\"))\nDelivery_fee =  0 if order_amount > 300 else 30\nprint(f\"Total Price is: {order_amount+Delivery_fee}\")",
+        "detail": "03_Conditionals.delivery_fee_waiver_system",
+        "documentation": {}
+    },
+    {
+        "label": "Delivery_fee",
+        "kind": 5,
+        "importPath": "03_Conditionals.delivery_fee_waiver_system",
+        "description": "03_Conditionals.delivery_fee_waiver_system",
+        "peekOfCode": "Delivery_fee =  0 if order_amount > 300 else 30\nprint(f\"Total Price is: {order_amount+Delivery_fee}\")",
+        "detail": "03_Conditionals.delivery_fee_waiver_system",
+        "documentation": {}
+    },
+    {
+        "label": "kettle_Boiled",
+        "kind": 5,
+        "importPath": "03_Conditionals.mini_kettle",
+        "description": "03_Conditionals.mini_kettle",
+        "peekOfCode": "kettle_Boiled = True\nif kettle_Boiled :\n    print(\"Kelled Done ! time to make Chai\")",
+        "detail": "03_Conditionals.mini_kettle",
+        "documentation": {}
+    },
+    {
+        "label": "temp",
+        "kind": 5,
+        "importPath": "03_Conditionals.smart_thermostat",
+        "description": "03_Conditionals.smart_thermostat",
+        "peekOfCode": "temp = int(input(\"Enter Temperature: \"))\nstatus = input(\"Enter Device Status: \").lower()\nif status == \"active\":\n        if temp > 35:\n            print(f\"Device is Active !! Temperature High\")\n        else:\n            print(f\"Device is Active &&  Temperature is Normal\")\nelif status == \"offline\":\n    print(f\"Device is OFFLINE\")\nelse:",
+        "detail": "03_Conditionals.smart_thermostat",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "kind": 5,
+        "importPath": "03_Conditionals.smart_thermostat",
+        "description": "03_Conditionals.smart_thermostat",
+        "peekOfCode": "status = input(\"Enter Device Status: \").lower()\nif status == \"active\":\n        if temp > 35:\n            print(f\"Device is Active !! Temperature High\")\n        else:\n            print(f\"Device is Active &&  Temperature is Normal\")\nelif status == \"offline\":\n    print(f\"Device is OFFLINE\")\nelse:\n    print(f\"May be Device is Offline\")",
+        "detail": "03_Conditionals.smart_thermostat",
+        "documentation": {}
+    },
+    {
+        "label": "snack",
+        "kind": 5,
+        "importPath": "03_Conditionals.snack_system",
+        "description": "03_Conditionals.snack_system",
+        "peekOfCode": "snack = input(\"Enter your Prefered Snack:  \").lower()\nprint(f\"User said: {snack}\")\nif snack == \"cookies\" or snack == \"samosa\":\n    print(f\"Great Choice: :) {snack} Your Order is in Processing\")\nelse :\n    print(f\"Not Available\")",
+        "detail": "03_Conditionals.snack_system",
+        "documentation": {}
+    },
+    {
+        "label": "seat",
+        "kind": 5,
+        "importPath": "03_Conditionals.train_seat_info",
+        "description": "03_Conditionals.train_seat_info",
+        "peekOfCode": "seat = input(\"Enter your Seat Type to get details: \\n\").lower()\nmatch seat:\n   case \"sleeper\":\n      print(\"This includes Non-Ac and General Seat Quality: \\n\")\n   case \"ac\":\n      print(\"This includes Ac and better quality than all of seat:\\n\")\n   case \"general\":\n         print(\"This doesn't include Seat and and no AC :\\n\")\n   case \"luxury\":\n         print(\"Welcome! Best AC and Seat Availability :\\n\")",
+        "detail": "03_Conditionals.train_seat_info",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "04_loops.orders_name",
+        "description": "04_loops.orders_name",
+        "peekOfCode": "list = [\"Tarun\",\"Tarun\",\"Gunni\",\"Gunjan\",\"Himanshu\",\"Gargii\",\"Mohit\",\"Rohit\",\"Sajan\"]\nfor order in list:\n    print(f\"Order ready of: {order}\")\n# Enumeration\nfor idx,item in enumerate(list,start=1):\n    print(f\"{idx}: {item}: \")",
+        "detail": "04_loops.orders_name",
         "documentation": {}
     }
 ]
